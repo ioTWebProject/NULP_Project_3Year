@@ -108,7 +108,7 @@ input{
 }
 
 .login-form{
-   padding-top: 150px;
+   padding-top: 200px;
     display: flex;
     flex-direction: column;
    justify-content: center;
@@ -142,7 +142,8 @@ input[type=email], [type=password], select {
 
 .submit:hover{
     color: white;
-    background-color:rgba(207, 0, 15, 1);
+    background-color: rgb(105, 0, 8);
+    border: solid 1px white;
 }
 
 .image-logo{
@@ -183,6 +184,7 @@ input[type=email], [type=password], select {
 .gallery-content{
     display: flex;
     margin: 30px 0 10px 0;
+    justify-content: center;
 }
 
 .gallery-item{
@@ -213,4 +215,9 @@ input[type=email], [type=password], select {
     margin: 0 0 1px;
 }
 
+@media only screen and (max-width: px) {
+    body {
+        background-color: lightblue;
+    }
+}
 
