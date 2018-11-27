@@ -1,0 +1,5 @@
+import base64
+
+image = open('Website/images/template.jpg', 'rb')
+image_read = image.read()
+image_64_encode = base64.encodestring(image_read)
